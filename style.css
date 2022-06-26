@@ -1,0 +1,209 @@
+
+
+
+
+/*--------------------------------*/
+
+/* General 
+/*--------------------------------*/
+
+body{
+  background-color: gainsboro;
+
+  height: 100%;
+  overflow-x:hidden;
+  overflow-y: hidden;
+  
+}
+
+html{
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.green{
+  color: #13a215; 
+}
+.bg-green{
+  background-color: #13a215!important; 
+}
+
+.orange{
+  color:#eeb422;
+}
+
+
+/*--------------------------------*/
+
+/* Header 
+/*--------------------------------*/
+
+
+.top-logo h1{
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.bottom-logo h1, .footer-text{
+  color: gainsboro;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: capitalize;
+}
+
+.main-menu ul li{
+  display: inline;
+  padding: 0px 8px;
+  border-right: 1px black solid;
+  transition: all 0.3s ease 0s;
+}
+
+.main-menu ul li a{
+  color: gainsboro;
+  
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+  transition: all 0.3s ease 0s;
+}
+
+.main-menu ul li a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+/*.main-menu ul li:hover{
+  background-color: green;
+}*/
+
+.no-border{
+  border: none!important;
+}
+
+
+
+/*main menu toggle*/
+.main-menu ul.navbar-nav li {
+  display: inline-block;
+  padding: 5px 8px;
+}
+
+.main-menu ul.navbar-nav li a {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  color: gainsboro;
+  font-size: 16px;
+  font-weight: 700; 
+  text-transform: capitalize;
+}
+
+.main-menu ul.navbar-nav li a:hover {
+  color: #fff;
+}
+
+
+.username {
+  color: #eeb422 !important;
+  font-size: 16px;
+  font-weight: 700; 
+  margin-right: 30px;
+
+}
+
+footer{
+  margin-bottom: 0px;
+  background-color: #13a215;
+  height: 60px;
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  z-index: 1000;
+}
+
+footer p small{
+  font-family: cursive, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.lowercase{
+  text-transform: lowercase;
+}
+
+.footer-name{
+  color: #eeb422!important;
+  margin-bottom: 0;
+}
+
+.copyright{
+  padding: 10px 0 0 0;
+  margin: 0;
+}
+
+#replacingAdd{
+  display: none;
+}
+
+
+
+
+
+/* =============================
+Media queries
+============================= */
+/*@media (min-width: 979px) and (max-width: 1200px) {
+  h1{
+    width:1000px;
+    margin:0 auto;
+  }*/
+
+
+/*@media (max-width: 405px) {*/
+
+/*.top-logo h1{
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  .name{
+    position: absolute;
+    top: 10px;
+    left: 70px;
+  }
+
+  .navbar-brand > img{
+    position: relative;
+    top: 25px;
+    left: -10px;
+    margin-right: 0;
+    width: 55px;
+  }*/
+ /* }*/
+
+/* @media (min-width: 960px) {
+  .table th{
+    width: auto!important;
+  }
+ }*/
+
+@media (max-width: 979px) {
+  .main-menu ul.navbar-nav li {
+    padding: 15px 8px;
+  }
+}
