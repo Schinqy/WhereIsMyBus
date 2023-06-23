@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact Us</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f5f5;
+    }
+    .container-contact {
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+    .contact-form {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 30px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .contact-form-title {
+      font-weight: 700;
+      font-size: 36px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .form-label {
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+    .form-control {
+      border-radius: 5px;
+      border: none;
+      padding: 15px;
+      font-size: 16px;
+      margin-bottom: 20px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    }
+    .form-control:focus {
+      box-shadow: none;
+      border: 1px solid #ced4da;
+    }
+    .form-control::placeholder {
+      color: #b2b2b2;
+    }
+    .submit-btn {
+      background-color: #ff4c60;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      padding: 15px;
+      font-size: 16px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+    .submit-btn:hover {
+      background-color: #ff2f46;
+    }
+  </style>
+</head>
+<body>
+  
+   <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light d-lg-block " style="z-index: 2000;">
+  <div class="container-fluid">
+    <!-- Navbar brand -->
+    <a class="navbar-brand nav-link" target="_blank" href="#">
+      <img src="img/logo2.png"  style="object-fit: contain; width: 2rem; height: 2rem;" rel="icon"> 
+	  <!-- <img src="/bf/img/logo2.png"  style="object-fit: contain; max-width: 62px; max-height: 62px;"" class="img-fluid " rel="icon"> -->
+      <strong>BruteForce</strong>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar01"
+      aria-controls="navbar01" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar01">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link ms-lg-3" id="" aria-current="page" href="#landing-page">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ms-lg-3" href="who.html">Who</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ms-lg-3" href="#what" target="_blank">What</a>
+        </li>
+        <li class="nav-item see-li">
+          <a class="nav-link ms-lg-3" href="#see/" target="_blank">See</a>
+        </li>
+        <li class="nav-item see-li">
+          <a class="nav-link" href="contact-us.html" target="_blank">Contact</a>
+        </li>
+        <li class="nav-item blog-li">
+          <a class="nav-link ms-lg-2" href="#blog/" target="_blank">Blog</a>
+        </li>
+
+        <li class="nav-item blog-li">
+          <a class="nav-link ms-lg-2" href="#blog/" target="_blank">Careers</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav list-inline">
+        <!-- Icons -->
+        <li class="">
+          <a style="color: #c4302b"; class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow"
+            target="_blank">
+            <i  class="fab fa-youtube"></i>
+          </a>
+        </li>
+        <li class="">
+          <a style="color: #3b5998"; class="nav-link" href="www.facebook.com/bruteforcezim" rel="nofollow" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a style="color: #55acee"; class="nav-link" href="https://twitter.com/WenyuShingi" rel="nofollow" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/mdbootstrap/mdb-ui-kit" rel="nofollow" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- CSS Code -->
+<style>
+  .navbar-nav a {
+  position: relative;
+}
+
+.navbar-nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #A21012;
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar-nav a:hover::after {
+  width: 100%;
+}
+</style>
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-4">
+        <div class="container-contact">
+          <div class="contact-form">
+            <h2 class="contact-form-title">Contact Us</h2>
+            <form>
+              <div class="form-group">
+                <label for="input-name" class="form-label">Your Name *</label>
+                <input type="text" class="form-control" id="input-name" placeholder="Enter your name">
+              </div>
+              <div class="form-group">
+                <label for="input-email" class="form-label">Email Address *</label>
+                <input type="email" class="form-control" id="input-email" placeholder="Enter your email">
+              </div>
+              <div class="form-group">
+                <label for="input-phone" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" id="input-phone" placeholder="Enter your phone number">
+              </div>
+              <div class="form-group">
+                <label for="input-message" class="form-label">Message *</label>
+                <textarea class="form-control" id="input-message" rows="5" placeholder="Enter your message"></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Submit <i class="fas fa-arrow-right"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
